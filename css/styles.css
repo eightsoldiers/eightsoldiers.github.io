@@ -11,3 +11,11 @@ body, html {
 .title {
   width: 100%;
 }
+
+.logo {
+  width: 100%;
+}
+
+.contact-link {
+  border: none;
+}
