@@ -10,12 +10,19 @@ body, html {
 
 .title {
   width: 100%;
+  margin-top: 2%;
 }
 
 .logo {
   width: 100%;
+  margin-top: -2%;
 }
 
 .contact-link {
   border: none;
 }
+
+.contact-image {
+  width: 70%;
+}
+
