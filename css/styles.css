@@ -9,13 +9,14 @@ body, html {
 }
 
 .title {
-  width: 100%;
-  margin-top: 2%;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .logo {
   width: 100%;
-  margin-top: -2%;
+  margin-top: 0%;
 }
 
 .contact-link {
