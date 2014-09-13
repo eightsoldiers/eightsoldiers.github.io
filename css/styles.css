@@ -1,9 +1,13 @@
 body, html {
   margin: 0;
   padding: 0;
+  background-color: rgb(20,15,12);
 }
 
-body {
-  background: url('/img/type1finaleightsoldiers.jpg');
-  background-size: 100%;
+.main-container {
+  color: white;
+}
+
+.title {
+  width: 100%;
 }
