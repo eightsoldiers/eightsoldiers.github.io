@@ -23,7 +23,6 @@ body, html {
   min-height: 396px;
   max-width: 955px;
   max-height: 396px;
-  
 }
 
 .contact-link {
@@ -34,5 +33,133 @@ body, html {
   width: 38%;
   margin-left: 60%;
   margin-top: 27%;
+
 }
 
+/* iPad Mini in Portrait and landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {  
+
+  .title {
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 6%;
+  }
+
+  .logo {
+    width: 81%;
+    height: 73%;
+    margin-top: 5%;
+    margin-left: 10%;
+    min-width: 955px;
+    min-height: 396px;
+    max-width: 955px;
+    max-height: 396px;
+  }
+
+  .contact-link {
+    border: none;
+  }
+
+  .contact-image {
+    width: 38%;
+    margin-left: 60%;
+    margin-top: 27%;}
+
+/* iPad in portrait or landscape mode */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+
+  .title {
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 6%;
+  }
+
+  .logo {
+    width: 81%;
+    height: 73%;
+    margin-top: 5%;
+    margin-left: 10%;
+    min-width: 955px;
+    min-height: 396px;
+    max-width: 955px;
+    max-height: 396px;
+  }
+
+  .contact-link {
+    border: none;
+  }
+
+  .contact-image {
+    width: 38%;
+    margin-left: 60%;
+    margin-top: 27%;
+
+  }
+  /* iPhone 5 in portrait & landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+
+  .title {
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 6%;
+  }
+
+  .logo {
+    width: 81%;
+    height: 73%;
+    margin-top: 5%;
+    margin-left: 10%;
+    min-width: 955px;
+    min-height: 396px;
+    max-width: 955px;
+    max-height: 396px;
+  }
+
+  .contact-link {
+    border: none;
+  }
+
+  .contact-image {
+    width: 38%;
+    margin-left: 60%;
+    margin-top: 27%;}
+
+    /*iPhone 2G-4S in portrait & landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { 
+
+  .title {
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 6%;
+  }
+
+  .logo {
+    width: 81%;
+    height: 73%;
+    margin-top: 5%;
+    margin-left: 10%;
+    min-width: 955px;
+    min-height: 396px;
+    max-width: 955px;
+    max-height: 396px;
+  }
+
+  .contact-link {
+    border: none;
+  }
+
+  .contact-image {
+    width: 38%;
+    margin-left: 60%;
+    margin-top: 27%;
+  }
+
+}
