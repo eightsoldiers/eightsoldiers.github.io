@@ -9,14 +9,20 @@ body, html {
 }
 
 .title {
-  width: 80%;
-  margin-top: 5%;
-  margin-left: 10%;
+  width: 70%;
+  margin-top: 4%;
+  margin-left: 6%;
 }
 
 .logo {
-  width: 100%;
-  margin-top: 0%;
+  width: 81%;
+  height: 73%;
+  margin-top: 5%;
+  margin-left: 10%;
+  min-width: 955px;
+  min-height: 396px;
+  max-width: 955px;
+  max-height: 396px;
 }
 
 .contact-link {
@@ -24,6 +30,9 @@ body, html {
 }
 
 .contact-image {
-  width: 70%;
+  width: 38%;
+  margin-left: 60%;
+  margin-top: 27%;
+
 }
 
